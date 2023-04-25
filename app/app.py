@@ -65,7 +65,7 @@ with col1:
 
 with col2:
     st.markdown(str(os.listdir()))
-    image = Image.open('prospecting.png')
+    image = Image.open('app/prospecting.png')
     st.image(image=image, width=250)
 
 st.markdown("## Enter Your LinkedinURL To Convert")
