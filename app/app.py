@@ -61,10 +61,8 @@ with col1:
     st.markdown("This tool will help you improve your prospecting by doing the research on a linked in profile for you. \
                 Powered by [LangChain](https://langchain.com/), [OpenAI](https://openai.com), and [PeopleDataLabs](https://docs.peopledatalabs.com/docs/enrichment-api). \
                 \n Programmed by [roncahlon](https://twitter.com/roncahlon). \n\n")
-    st.markdown(str(os.listdir()))
 
 with col2:
-    st.markdown(str(os.listdir()))
     image = Image.open('app/prospecting.png')
     st.image(image=image, width=250)
 
