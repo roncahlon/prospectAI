@@ -2,4 +2,4 @@ openai
 langchain
 streamlit
 tiktoken
-faiss
+pip install faiss-cpu
