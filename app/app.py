@@ -1,4 +1,6 @@
 import streamlit as st
+from PIL import Image
+
 from langchain import PromptTemplate
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
