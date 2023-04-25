@@ -61,7 +61,8 @@ with col1:
                 \n Programmed by [roncahlon](https://twitter.com/roncahlon). \n\n")
 
 with col2:
-    st.image(image='prospecting.png', width=250)
+    image = Image.open('prospecting.png')
+    st.image(image=image, width=250)
 
 st.markdown("## Enter Your LinkedinURL To Convert")
 
