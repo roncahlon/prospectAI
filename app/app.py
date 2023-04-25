@@ -63,7 +63,7 @@ with col1:
                 \n Programmed by [roncahlon](https://twitter.com/roncahlon). \n\n")
 
 with col2:
-    st.markdown(os.listdir(""))
+    st.markdown(str(os.listdir()))
     image = Image.open('prospecting.png')
     st.image(image=image, width=250)
 
