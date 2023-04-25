@@ -2,3 +2,4 @@ openai
 langchain
 streamlit
 tiktoken
+faiss
